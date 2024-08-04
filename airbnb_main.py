@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 import streamlit.components.v1 as components
 import streamlit as st
 
-st.set_page_config(layout= 'wide', page_title = '🏡 Airbnb Recommender')
+st.set_page_config(layout= 'wide', page_title = ' Airbnb Recommender', page_icon= "🏡")
 
 ######################################## read_csv########################################
 # st.cache_data
