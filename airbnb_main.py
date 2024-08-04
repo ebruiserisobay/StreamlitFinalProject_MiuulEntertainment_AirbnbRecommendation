@@ -9,6 +9,8 @@ from sklearn.preprocessing import StandardScaler
 import streamlit.components.v1 as components
 import streamlit as st
 
+st.set_page_config(layout= 'wide', page_title = 'Miuultainment Airbnb')
+
 ######################################## read_csv########################################
 # st.cache_data
 @st.cache_data
@@ -20,7 +22,6 @@ airbnb_data = get_data()
 
 ######################################## home_tab information ########################################
 
-st.set_page_config(layout= 'wide', page_title = 'Miuultainment Airbnb')
 
 st.markdown(
     """
