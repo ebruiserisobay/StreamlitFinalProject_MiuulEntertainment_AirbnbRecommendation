@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 import streamlit.components.v1 as components
 import streamlit as st
 
-st.set_page_config(layout= 'wide', page_title = 'Miuultainment Airbnb')
+st.set_page_config(layout= 'wide', page_title = '🏡 Airbnb Recommender')
 
 ######################################## read_csv########################################
 # st.cache_data
@@ -376,7 +376,7 @@ st.markdown(
 )
 # Ana başlık için bir container oluşturun
 with home_tab.container():
-    home_tab.markdown('<div class="discover-background"><h1>Discover Your Next Adventure!</h1></div>', unsafe_allow_html=True)
+    home_tab.markdown('<div class="discover-background"><h1>Discover More!</h1></div>', unsafe_allow_html=True)
 
 home_tab.markdown("<br>", unsafe_allow_html=True)
 
@@ -404,7 +404,7 @@ with home_tab.container():  # 'home_tab' yerine st.container kullanın
 
     # ! imdb column
     image_movie = 'https://media.tenor.com/HJTXKCtOYwgAAAAM/perfect-popcorn.gif'
-    redirect_movie = "https://appent-g9qe2nhwhrvvgnhkqybvzq.streamlit.app/"
+    redirect_movie = "https://miuulmovierecommender.streamlit.app/"
 
     html_movie = f"""
     <div style="position: relative; width: 150px; height: 150px;">
@@ -420,7 +420,7 @@ with home_tab.container():  # 'home_tab' yerine st.container kullanın
 
     # ! amazon column
     image_amazon = "https://c.tenor.com/xrld-zE_4IAAAAAd/tenor.gif"
-    redirect_amazon = "https://www.amazon.com/Best-Books-of-2024-So-Far/b?ie=UTF8&node=3003015011"
+    redirect_amazon = "https://book-recomendations.streamlit.app/"
     html_amazon = f"""
     <div style="position: relative; width: 150px; height: 150px;">
         <a href="{redirect_amazon}" target="_blank">
@@ -434,7 +434,7 @@ with home_tab.container():  # 'home_tab' yerine st.container kullanın
 
     # ! steam column
     image_steam = "https://media1.tenor.com/m/zjbXreUb5_YAAAAd/steam.gif"
-    redirect_steam = "https://store.steampowered.com/"
+    redirect_steam = "https://gamerecommendations.streamlit.app/"
 
     html_steam = f"""
     <div style="position: relative; width: 150px; height: 150px;">
