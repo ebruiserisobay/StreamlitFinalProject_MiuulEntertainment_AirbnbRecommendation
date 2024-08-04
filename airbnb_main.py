@@ -91,7 +91,7 @@ st.markdown("""
     <style>
     /* Sekmelerin varsayılan stilini ayarla */
     .stTabs [role="tab"] {
-        color: white;
+        color: #C8AD7F;
         border: none;
         padding: 0px;
     }
